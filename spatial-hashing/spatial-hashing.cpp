@@ -1,6 +1,19 @@
 #include "spatial-hashing.hpp"
 
-spatialHashing::spatialHashing()
+SpatialHashGrid::SpatialHashGrid(boundary aGridBoundary,resolution aGridResolution)
 {
-    this->beep = 10;
-}
+    mGridBoundary = aGridBoundary;
+    mGridResolution = aGridResolution;
+};
+
+client SpatialHashGrid::newClient(std::vector<double> aPosition, resolution aDimensions)
+{
+    client client = {aPosition,aDimensions,NULL};
+    insert(client);
+    return client;
+};
+
+void SpatialHashGrid::insert(client aClient)
+{
+    
+};
