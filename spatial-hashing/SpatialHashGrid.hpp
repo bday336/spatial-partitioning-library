@@ -1,3 +1,8 @@
+
+// Source
+// https://github.com/sarckk/boids/tree/main
+// https://github.com/simondevyoutube/Tutorial_SpatialHashGrid_Optimized/tree/main -- js implementation
+
 #ifndef BOIDS_SPATIALHASHGRID_H
 #define BOIDS_SPATIALHASHGRID_H
 
